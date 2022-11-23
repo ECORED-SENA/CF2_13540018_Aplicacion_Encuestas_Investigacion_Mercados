@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94.334" height="73.146" viewBox="0 0 94.334 73.146">
+  <g id="mesa" transform="translate(0 -56.375)">
+    <rect id="Rectángulo_339931" data-name="Rectángulo 339931" width="90.576" height="13.886" transform="translate(1.879 58.254)" fill="#4edc9e"/>
+    <rect id="Rectángulo_339932" data-name="Rectángulo 339932" width="90.576" height="55.545" transform="translate(1.879 72.097)" fill="#d1dceb"/>
+    <g id="Grupo_954984" data-name="Grupo 954984" transform="translate(0 56.375)">
+      <path id="Trazado_637872" data-name="Trazado 637872" d="M92.455,129.521a1.879,1.879,0,0,0,1.879-1.879V58.254a1.879,1.879,0,0,0-1.879-1.879H1.879A1.879,1.879,0,0,0,0,58.254v69.388a1.879,1.879,0,0,0,1.879,1.879ZM90.576,97.99H71.69V87.862H90.576ZM3.758,87.862H22.644V97.99H3.758ZM67.932,74.02V84.1H49.046V74.02Zm-22.644,0V84.1H26.4V74.02ZM26.4,87.862H45.288V97.99H26.4Zm22.644,0H67.932V97.99H49.046ZM71.69,84.1V74.02H90.576V84.1ZM22.644,74.02V84.1H3.758V74.02ZM3.758,101.749H22.644v10.128H3.758Zm22.644,0H45.288v10.128H26.4Zm22.644,0H67.932v10.128H49.046Zm22.644,0H90.576v10.128H71.69ZM3.758,70.218V60.133H90.576V70.218Zm0,45.418H22.644v10.128H3.758Zm22.644,0H45.288v10.128H26.4Zm22.644,0H67.932v10.128H49.046Zm41.53,10.128H71.69V115.635H90.576Z" transform="translate(0 -56.375)"/>
+      <path id="Trazado_637873" data-name="Trazado 637873" d="M200.879,91.383h36.08a1.879,1.879,0,0,0,0-3.758h-36.08a1.879,1.879,0,1,0,0,3.758Z" transform="translate(-161.605 -81.753)"/>
+      <path id="Trazado_637874" data-name="Trazado 637874" d="M427.879,91.383h4.134a1.879,1.879,0,1,0,0-3.758h-4.134a1.879,1.879,0,0,0,0,3.758Z" transform="translate(-345.948 -81.753)"/>
+    </g>
+  </g>
+</svg>
