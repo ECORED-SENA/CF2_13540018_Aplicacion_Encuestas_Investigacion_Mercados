@@ -12,9 +12,7 @@
         p En investigación de mercados un muestreo es el conjunto de procedimientos estadísticos que se utilizan para definir la cantidad de encuestas a realizar y la forma cómo se seleccionarán las personas dentro del estudio y, si bien no es responsabilidad de los encuestadores definir esta cifra y este procedimiento, sí es importante que conozcan sobre el tema, dado que en el trabajo de campo se debe garantizar que se apliquen de manera correcta. Es por ello que previamente se deben tener claros los siguientes conceptos:
       .col-lg-4(data-aos="fade-up")
         img(src='@/assets/curso/tema2/1.svg', alt='Texto que describa la imagen')
-    p.mt-4 Específicamente, en el tema objeto de este curso,
-      span.textc1 <strong>las buenas prácticas en la investigación de mercados se refieren a la adopción de estándares y códigos de ética</strong>
-      |  que permitan a las empresas desarrollar sus estudios de mercado de la forma más eficiente y responsable posible; de ahí, la necesidad de comprender su diferencia.
+
     .row.mt-4.bg1.justify-content-center
       .col-lg-10(data-aos="fade-up")
         img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')
@@ -64,7 +62,7 @@
               p.text-small Para comprender mucho mejor la manera cómo se calcula el nivel de confianza (Z), se sugiere revisar la Tabla Z, la cual será referente cada vez que se desee aplicar la fórmula para un muestreo.
 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     p En la siguiente tabla se evidencian cuáles serían los valores más utilizados para trabajar en las fórmulas el nivel de confianza (NC) y los márgenes de error:
@@ -75,8 +73,8 @@
       table
         thead
           tr
-            th Norma
-            th Componente
+            th Variable
+            th Valor a usar en la fórmula
 
         tbody
           tr
@@ -96,6 +94,18 @@
           tr
             td.text-center Nivel de confianza del 99 %
             td.text-center 2.58
+          tr
+            td.text-center Margen de error del 5%
+            td.text-center 0.05      
+          tr
+            td.text-center Margen de error del 7.5%
+            td.text-center 0.075  
+          tr
+            td.text-center Margen de error del 9%
+            td.text-center 0.09      
+
+
+
     p Con dos ejemplos, uno para población finita y otra para población infinita se calculará el tamaño de la muestra. 
     .row.mt-4.align-items-center
       .col-lg-5.px-0
@@ -228,25 +238,25 @@
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo Aleatorio Simple (MAS)
+        h5.text-center Muestreo aleatorio simple (MAS)
         p.text-center  También conocido por sus siglas como MAS, en este tipo de muestreo todos y cada uno de los elementos de la población se elige de tal forma que tengan la misma probabilidad de ser seleccionados y pertenecer a la muestra.
       .tarjeta.color-acento-botones.p-4.mt-5
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo Aleatorio Estratificado (MAE)
-        p.text-center  se involucra la división previa de la población en subgrupos, clases o estratos, a los cuales se les asigna una cuota que determina el número de miembros del estrato que comprende la muestra. Acá es importante clarificar qué estratos no hacen alusión a un estrato socioeconómico, sino a cualquier variable de segmentación.
+        h5.text-center Muestreo aleatorio estratificado (MAE)
+        p.text-center  Se involucra la división previa de la población en subgrupos, clases o estratos, a los cuales se les asigna una cuota que determina el número de miembros del estrato que comprende la muestra. Acá es importante clarificar qué estratos no hacen alusión a un estrato socioeconómico, sino a cualquier variable de segmentación.
       .tarjeta.color-acento-botones.p-4.mt-5
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo Aleatorio Sistemático
-        p.text-center  se utiliza cuando el universo es de gran tamaño y se requiere de una selección aleatoria inicial del participante, seguida de otra selección obtenida mediante algún parámetro, es decir, cuando el criterio de distribución de los encuestados es tal, que los más similares tienden a estar más cercanos. Se utiliza este tipo de muestreo para ser más precisos y que de alguna manera los participantes en el estudio queden distribuidos de forma más uniforme.
+        h5.text-center Muestreo aleatorio sistemático
+        p.text-center  Se utiliza cuando el universo es de gran tamaño y se requiere de una selección aleatoria inicial del participante, seguida de otra selección obtenida mediante algún parámetro, es decir, cuando el criterio de distribución de los encuestados es tal, que los más similares tienden a estar más cercanos. Se utiliza este tipo de muestreo para ser más precisos y que de alguna manera los participantes en el estudio queden distribuidos de forma más uniforme.
       .tarjeta.color-acento-botones.p-4.mt-5
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo por Conglomerados
+        h5.text-center Muestreo por conglomerados
         p.text-center  Es el muestreo en el que se suele dividir primero la población en grupos o conglomerados convenientes para el muestreo, seleccionando de cada uno de ellos una porción al azar o por un método sistemático. Bajo este método, aunque no todos los grupos son muestreados, cada grupo tiene igual probabilidad de ser seleccionado.
     .row.bg5.mt-4.align-items-center
       .col-lg-4(data-aos="fade-up")
@@ -272,16 +282,16 @@
 
           .tarjeta.color-acento-botones
             .p-4
-              h4.text-center Muestreo por Conveniencia
-              p es un tipo de muestreo usado para tomar muestras estadísticas de forma no aleatoria, por lo que el criterio de selección es la facilidad de acceso, es decir, la disponibilidad de las personas para formar parte de la muestra.
+              h4.text-center Muestreo por Ccnveniencia
+              p Es un tipo de muestreo usado para tomar muestras estadísticas de forma no aleatoria, por lo que el criterio de selección es la facilidad de acceso, es decir, la disponibilidad de las personas para formar parte de la muestra.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
 
           .tarjeta.color-acento-botones
             .p-4
-              h4.text-center Muestreo por Juicio
-              p es también denominado muestreo deliberado o crítico, en el que el criterio para participar en el estudio está asociado al criterio del investigador. La desventaja de este tipo de muestreo es que puede darse la subjetividad.
+              h4.text-center Muestreo por juicio
+              p Es también denominado muestreo deliberado o crítico, en el que el criterio para participar en el estudio está asociado al criterio del investigador. La desventaja de este tipo de muestreo es que puede darse la subjetividad.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -289,8 +299,8 @@
 
           .tarjeta.color-acento-botones
             .p-4
-              h4.text-center Muestreo Bola de Nieve
-              p se utiliza con frecuencia cuando el perfil requerido para el estudio no es fácil de encontrar, por lo que a partir del contacto con el primer encuestado que cumple los criterios requeridos por el estudio le solicitan que referencie otras personas que cumplen con la misma variable de interés.
+              h4.text-center Muestreo bola de nieve
+              p Se utiliza con frecuencia cuando el perfil requerido para el estudio no es fácil de encontrar, por lo que a partir del contacto con el primer encuestado que cumple los criterios requeridos por el estudio le solicitan que referencie otras personas que cumplen con la misma variable de interés.
     .row.bg6.mt-4.align-items-center
       .col-lg-8
         h4 Ejemplo

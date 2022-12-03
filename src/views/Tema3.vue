@@ -9,7 +9,7 @@
     .row.align-items-center
       .col-lg-8.px-0
         .row.p-5.colort1
-          p Las bases de datos conocidas con las siglas BD (español) o DB (en inglés) o BBDD en términos informáticos, son estructuras diseñadas principalmente para recopilar y alojar información de diferentes tipos. Hoy en día las bases de datos son una herramienta importante en la gestión empresarial, dado que a través de ellas es posible alojar, actualizar o ingresar información, y en este sentido tienen usabilidad tanto para el desarrollo de actividades individuales como colectivas dentro de la organización. Asimismo, permiten capturar información de los grupos de interés (stakeholders), permitiendo de esta manera tener procesos estandarizados y centralizados para los datos que se generan en la compañía.
+          p Las bases de datos conocidas con las siglas BD (español) o DB (en inglés) o BBDD en términos informáticos, son estructuras diseñadas principalmente para recopilar y alojar información de diferentes tipos. Hoy en día las bases de datos son una herramienta importante en la gestión empresarial, dado que a través de ellas es posible alojar, actualizar o ingresar información, y en este sentido tienen usabilidad tanto para el desarrollo de actividades individuales como colectivas dentro de la organización. Asimismo, permiten capturar información de los grupos de interés (<i>stakeholders</i>), permitiendo de esta manera tener procesos estandarizados y centralizados para los datos que se generan en la compañía.
 
       .col-lg-4.px-0(data-aos="flip-up")
         img(src='@/assets/curso/tema3/img1.png', alt='Texto que describa la imagen')
@@ -44,9 +44,8 @@
           div(titulo="Dinámicas")
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
-                p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos; sin embargo, luego son susceptibles de uso para el análisis de proyecciones y comportamientos de una determinada variable.  
-
-                p Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios, con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
+                p Por su misma denominación son lo opuesto de las estáticas, ya que sí permiten realizar ajustes o modificaciones en la información registrada; dicho de otra manera, los datos que se ingresan pueden ser actualizados, eliminados o complementados. 
+                p A nivel de ejemplo, se toma el caso de la base de datos de los datos de contacto de un cliente, esta es una información que cambia fácilmente, por lo que debe ser susceptible de actualizar en el momento que se requiera.
     .col-lg-4.mt-4
       .row.align-items-center
         .col-10.ll.p-1
@@ -66,7 +65,7 @@
           div(titulo="Texto completo")
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
-                p Las bases de datos de texto completo posibilitan la búsqueda de información a partir de key words (palabras clave), la diferencia con las bases de datos bibliográficas es que en estas se podrá tener acceso a la información completa. 
+                p Las bases de datos de texto completo posibilitan la búsqueda de información a partir de <i>key words</i> (palabras clave), la diferencia con las bases de datos bibliográficas es que en estas se podrá tener acceso a la información completa. 
                 p Por ejemplo, Google es una base de datos de texto completo, ya que al ingresar en el buscador se puede acceder inmediatamente a consultar el documento, imagen o video que se requiera.
           div(titulo="Directorio")
             .row.justify-content-center
@@ -82,7 +81,7 @@
       .col-lg-8
         .row.p-2.colort3
           p En términos de investigación de mercados la base de datos que se va construyendo en la medida que se va recopilando la información es una base de datos dinámica; sin embargo, cuando el estudio ha terminado y ya se tiene disponible en la base de datos el 100 % de las encuestas que debían realizarse, la base de datos será estática y bajo esta tipología se conservará, dado que la información quedará tal cual como se ha ingresado y no será susceptible de ninguna modificación.
-        p Continuando con el manejo de esta información, en términos operativos de la base de datos, se entiende registro de información como el proceso mediante el cual una persona o un bot (robot que hace tareas operativas) ingresa información en un sistema, lo cual va originando algo que se conoce como “alimentar” la base de datos y es realizado a través de un usuario, que es aquella persona que tiene la potestad de ingresar a una BD.
+        p Continuando con el manejo de esta información, en términos operativos de la base de datos, se entiende registro de información como el proceso mediante el cual una persona o un <i>bot</i> (robot que hace tareas operativas) ingresa información en un sistema, lo cual va originando algo que se conoce como “alimentar” la base de datos y es realizado a través de un usuario, que es aquella persona que tiene la potestad de ingresar a una BD.
     p.mt-2 Para el registro de información en la base de datos se deben tener presente los roles, entendidos  como el tipo de accesos que se permiten a cada usuario. En este sentido, asociado al tratamiento de las bases de datos, a nivel estándar se tienen los siguientes:
     .col-lg-5.mt-4
       .row.align-items-center
@@ -97,7 +96,7 @@
           .col-6
             figure
               img(src='@/assets/curso/tema3/7.svg', alt='Texto que describa la imagen')          
-        h5.text-center Rol administrador
+        h2.text-center Rol administrador
         p Es aquel que tiene la facultad de realizar cualquier tipo de acciones sobre la base de datos, asociado tanto a los datos como a los usuarios.
 
       .col-md.tarjeta.color-acento-botones.p-5
@@ -114,7 +113,7 @@
           .col-6
             figure
               img(src='@/assets/curso/tema3/9.svg', alt='Texto que describa la imagen')          
-        h5.text-center Rol de consulta
+        h2.text-center Rol de consulta
         p Estos usuarios pueden ingresar a la base de datos con  la finalidad de detallar la información y en algunos casos, bajar información; sin embargo, no pueden modificarla. 
     p.mt-4 De acuerdo con los roles en cada empresa realizan la asignación de perfiles, entendiendo este último concepto como indicar para cada rol cuáles son las transacciones/actividades específicas que puede realizar el usuario en las base de datos. 
     .row.justify-content-center(data-aos="zoom-out")
@@ -142,7 +141,7 @@
         img(src='@/assets/curso/tema3/13.svg', alt='Texto que describa la imagen')
     .row.mt-5.align-items-center
       .col-lg-8
-        p Hoy en día la información es uno de los activos más importantes en una organización. En temas de bases de datos, como ya se ha mencionado, no solo es importante garantizar el ingreso de información sino también asegurar la disponibilidad, actualización y alojamiento, incluyendo un back- up (respaldo) que permita que en caso de que se tenga alguna falla técnica de tipo informático sea posible seguir contando con la información. Esto en términos de investigación de mercados es importante, porque si las encuestas se realizaron impresas y la información se ingresa en una base de datos y se pierde, generará un gran reproceso y pérdida de tiempo y dinero volverlas a ingresar; y si las encuestas fueron realizadas de forma online y no se cuenta con un back-up se corre el riesgo de perder toda la información recopilada en el trabajo de campo.
+        p Hoy en día la información es uno de los activos más importantes en una organización. En temas de bases de datos, como ya se ha mencionado, no solo es importante garantizar el ingreso de información sino también asegurar la disponibilidad, actualización y alojamiento, incluyendo un <i>back- up</i> (respaldo) que permita que en caso de que se tenga alguna falla técnica de tipo informático sea posible seguir contando con la información. Esto en términos de investigación de mercados es importante, porque si las encuestas se realizaron impresas y la información se ingresa en una base de datos y se pierde, generará un gran reproceso y pérdida de tiempo y dinero volverlas a ingresar; y si las encuestas fueron realizadas de forma online y no se cuenta con un <i>back-up</i> se corre el riesgo de perder toda la información recopilada en el trabajo de campo.
         .row.p-3.colort3
           p De acuerdo con lo anterior, se puede afirmar que las bases de datos en una investigación de mercados será el resultado final que se obtiene cuando se cuenta con los instrumentos de investigación totalmente diligenciados y disponibles en un solo repositorio informático, es por ello que es de suma importancia asegurar que esta base de datos cuente con los roles adecuados para acceder a ella y disponga de elementos pertinentes de seguridad de la información, con el fin de evitar su pérdida o manipulación.
       .col-lg-4

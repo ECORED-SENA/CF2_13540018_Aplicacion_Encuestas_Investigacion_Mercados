@@ -16,8 +16,7 @@
 
     figure.mb-5.mt-4(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1tOwzZrpXUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.p-4.colori2.align-items-center
       .col-2
         img(src='@/assets/curso/intro/2.svg', alt='Texto que describa la imagen')

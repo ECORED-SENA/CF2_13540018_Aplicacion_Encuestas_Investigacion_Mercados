@@ -137,7 +137,7 @@
             .row.p-4.colort12
               h5.mb-0 Encuestas disponibles en medio impreso: 
 
-              p.mb-4 si las encuestas están disponibles de forma impresa lo ideal es acudir a una máquina destructora de papel con el fin de garantizar que la información quede totalmente destruida; en caso de no contar con dicho elemento deben rayarse, cortarse en pedazos y llevarse a la basura; en ningún escenario deben quedar disponibles.
+              p.mb-4 Si las encuestas están disponibles de forma impresa lo ideal es acudir a una máquina destructora de papel con el fin de garantizar que la información quede totalmente destruida; en caso de no contar con dicho elemento deben rayarse, cortarse en pedazos y llevarse a la basura; en ningún escenario deben quedar disponibles.
     p.mt-4 Luego,  dentro de este proceso de validación se debe continuar con el cálculo de cumplimiento. A continuación se expone el paso a paso, retomando un ejemplo previo.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="1. Porcentaje de cumplimiento individual ")
