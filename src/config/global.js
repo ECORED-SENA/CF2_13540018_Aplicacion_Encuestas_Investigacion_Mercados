@@ -219,6 +219,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Diana Carolina Jaramillo Rojas',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios Regional Cauca',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios Norte de Santander Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -227,11 +248,7 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
+
       {
         nombre: ['Anllelo Andres Reina Montañez'],
         cargo: 'Diseño web',
@@ -247,6 +264,12 @@ export default {
       {
         nombre: 'Sergio Mauricio Valencia Martinez',
         cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
+        cargo: 'Validación de contenido        ',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -268,8 +291,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez ',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
