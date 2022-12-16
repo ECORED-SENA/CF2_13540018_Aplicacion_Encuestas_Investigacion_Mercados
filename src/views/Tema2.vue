@@ -21,7 +21,7 @@
         .row.p-5.colort1
           p Ahora bien, para el cálculo del tamaño de la muestra se tienen definidas unas fórmulas estadísticas, no obstante, para poder tener claro cuál es la fórmula que se debe aplicar, se debe conocer si la población con la que se trabajará es finita o infinita. 
           p Se hace relación a una población finita cuando se tiene el dato de cuántos elementos muestrales conforman la población y dicho dato es menor o igual a 100.000 elementos, por otro lado, se tiene una población infinita cuando se desconoce el total de elementos, aunque se tiene claridad que es lo suficientemente grande como para superar los 100.000 elementos. 
-      .col-lg-4.px-0
+      .col-lg-4.px-0.wiam
         img(src='@/assets/curso/tema2/3.png', alt='Texto que describa la imagen')
     p.mt-4 Las fórmulas para el cálculo de la muestra son:
     .row.mt-4.align-items-center
@@ -109,17 +109,18 @@
     p Con dos ejemplos, uno para población finita y otra para población infinita se calculará el tamaño de la muestra. 
     .row.mt-4.align-items-center
       .col-lg-5.px-0
-        img(src="@/assets/curso/tema2/6.svg")
+        img(src="@/assets/curso/tema2/6.png")
 
       .col-lg-7.px-0
-        .tarjeta.tarjeta--azul.p-4.mb-5
+        .tarjeta.tarjeta--azul.p-4
           SlyderA
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
-                h5.mb-0 Caso:
+                h4.mb-0 Caso:
                 p La empresa XYZ S.A.S. desea conocer el nivel de satisfacción de sus clientes y cuenta con una base de datos activa de 9.000 clientes, se espera un nivel de confianza del 95 % y un margen de error del 5 %. Con base en esta información, se requiere saber para ese tamaño de la población cuál sería el tamaño de la muestra.
               .col-md-5
-                img(src="@/assets/curso/tema2/7.svg")
+                img.mb-5(src="@/assets/curso/tema2/7.svg")
+                .row.mb-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
                 p Para este caso, lo primero es definir las variables:
@@ -150,11 +151,11 @@
                 p Según lo anterior, con un total de clientes de 9.000, un nivel de confianza del 95 % y un margen de error del 5 %, la empresa debe realizar 368 encuestas.
     .row.mt-4
       .col-lg-7.px-0
-        .tarjeta.tarjeta--rojo.p-4.mb-5
+        .tarjeta.tarjeta--rojo.p-4
           SlyderA
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
-                h5.mb-0 Caso:
+                h4.mb-0 Caso:
                 p En otro caso, Supermercados JJ tiene puntos de venta en todo el país, por lo que cuenta con 6.000.000 de compradores activos, en este caso la empresa requiere un estudio para evaluar la marca, y se precisa tener un nivel de confianza del 95 % y un margen de error del 3 %. 
               .col-md-4
                 img(src="@/assets/curso/tema2/9.svg")
@@ -228,36 +229,45 @@
     p.mt-4 Ahora bien, metodológicamente, definir la forma cómo se seleccionarán los encuestados da lugar a las técnicas de muestreo, que representan el mecanismo por el cual se seleccionarán los participantes en el estudio, dichas técnicas son de dos tipos: probabilístico y no probabilístico, y cada uno de ellos tiene asociados diferentes tipologías. De una forma más conceptual se muestra el siguiente esquema interactivo con sus correspondientes conceptos y ejemplos.
     .col-lg-4
       .row.align-items-center
-        .col-10.ll.p-1
-          h4.text-white.text-center.mt-1 Técnicas de muestreo  probabilístico
+        .col-10.ll.p-2
+          h4.text-white.text-center.mb-0 Técnicas de muestreo  probabilístico
         .col-2
           img.mn(src='@/assets/curso/tema1/fan1.svg', alt='Texto que describa la imagen')  
     p.mt-4 Este tipo de muestreo se encuentra enfocado en un concepto de aleatoriedad, es decir, que cada individuo que cumple las condiciones requeridas por el estudio tiene la misma probabilidad de ser elegido y participar en el estudio. 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-botones.p-4.mt-5.azx
+
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
         h5.text-center Muestreo aleatorio simple (MAS)
-        p.text-center  También conocido por sus siglas como MAS, en este tipo de muestreo todos y cada uno de los elementos de la población se elige de tal forma que tengan la misma probabilidad de ser seleccionados y pertenecer a la muestra.
-      .tarjeta.color-acento-botones.p-4.mt-5
+        p.text-center.mb-5  También conocido por sus siglas como MAS, en este tipo de muestreo todos y cada uno de los elementos de la población se elige de tal forma que tengan la misma probabilidad de ser seleccionados y pertenecer a la muestra.
+        .row.mb-5
+        .row.mb-5
+        .row.mb-3
+      .tarjeta.color-acento-botones.p-4.mt-5.azx
+
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
         h5.text-center Muestreo aleatorio estratificado (MAE)
-        p.text-center  Se involucra la división previa de la población en subgrupos, clases o estratos, a los cuales se les asigna una cuota que determina el número de miembros del estrato que comprende la muestra. Acá es importante clarificar qué estratos no hacen alusión a un estrato socioeconómico, sino a cualquier variable de segmentación.
-      .tarjeta.color-acento-botones.p-4.mt-5
+        p.text-center.mb-5  Se involucra la división previa de la población en subgrupos, clases o estratos, a los cuales se les asigna una cuota que determina el número de miembros del estrato que comprende la muestra. Acá es importante clarificar qué estratos no hacen alusión a un estrato socioeconómico, sino a cualquier variable de segmentación.
+        .row.mb-5
+      .tarjeta.color-acento-botones.p-4.mt-5.azx
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
         h5.text-center Muestreo aleatorio sistemático
         p.text-center  Se utiliza cuando el universo es de gran tamaño y se requiere de una selección aleatoria inicial del participante, seguida de otra selección obtenida mediante algún parámetro, es decir, cuando el criterio de distribución de los encuestados es tal, que los más similares tienden a estar más cercanos. Se utiliza este tipo de muestreo para ser más precisos y que de alguna manera los participantes en el estudio queden distribuidos de forma más uniforme.
-      .tarjeta.color-acento-botones.p-4.mt-5
+      .tarjeta.color-acento-botones.p-4.mt-5.azx
+
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
         h5.text-center Muestreo por conglomerados
-        p.text-center  Es el muestreo en el que se suele dividir primero la población en grupos o conglomerados convenientes para el muestreo, seleccionando de cada uno de ellos una porción al azar o por un método sistemático. Bajo este método, aunque no todos los grupos son muestreados, cada grupo tiene igual probabilidad de ser seleccionado.
+        p.text-center.mb-5  Es el muestreo en el que se suele dividir primero la población en grupos o conglomerados convenientes para el muestreo, seleccionando de cada uno de ellos una porción al azar o por un método sistemático. Bajo este método, aunque no todos los grupos son muestreados, cada grupo tiene igual probabilidad de ser seleccionado.
+        .row.mb-5
+        .row.mb-4
     .row.bg5.mt-4.align-items-center
       .col-lg-4(data-aos="fade-up")
         img.mb-0(src='@/assets/curso/tema2/11.png' alt='AvatarTop')
@@ -270,8 +280,8 @@
         p.mb-0 Ahora bien, si se toma un estudiante aleatorio y a partir de allí se aplican encuestas teniendo en cuenta el listado de matriculados se aplicaría un muestreo sistemático y si se divide la población entre dos conglomerados los estudiantes nuevos y antiguos este sería la aplicación de un muestreo por conglomerado.
     .col-lg-4.mt-5
       .row.align-items-center
-        .col-10.ll.p-1
-          h4.text-white.text-center.mt-1 Técnicas de muestreo no probabilístico
+        .col-10.ll.p-2
+          h4.text-white.text-center.mb-0 Técnicas de muestreo no probabilístico
         .col-2
           img.mn(src='@/assets/curso/tema1/fan1.svg', alt='Texto que describa la imagen')  
     p.mt-4 Es un tipo de muestreo en el que no es posible determinar la probabilidad de que cada individuo o elemento estará incluido en la muestra, adicionalmente no permite el cálculo del posible error de la muestra.
@@ -317,7 +327,7 @@
       .col-lg-8
         .row.p-2.colort1
           p Los expertos sugieren preferir el muestreo probabilístico en estudios cuantitativos porque garantiza que la selección de los encuestados no tiene ningún criterio de parcialidad y paralelamente recomiendan el muestreo no probabilístico en investigaciones de mercado cualitativas.
-        p Según lo visto en este capítulo para un encuestador es muy importante conocer el tamaño de la muestra, para tener claridad de este total, cuántas encuestas tiene asignadas, así como es también relevante diferenciar los tipos de muestreo que existen y cómo se aplican; de tal forma que cuando esté en el trabajo de campo desarrolle su actividad de la manera más eficiente posible.
+        p.mt-3 Según lo visto en este capítulo para un encuestador es muy importante conocer el tamaño de la muestra, para tener claridad de este total, cuántas encuestas tiene asignadas, así como es también relevante diferenciar los tipos de muestreo que existen y cómo se aplican; de tal forma que cuando esté en el trabajo de campo desarrolle su actividad de la manera más eficiente posible.
 </template>
 
 <script>
@@ -337,4 +347,17 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta.color-primario
+  background-image: url("../assets/curso/tema2/bg3.png") !important
+  background-size: 100% 100%
+
+.tarjeta--azul
+  border-top-left-radius: 0px
+  border-bottom-left-radius: 0px
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 0px
+.tarjeta--rojo
+  border-top-right-radius: 0px
+  border-bottom-right-radius: 0px
+</style>

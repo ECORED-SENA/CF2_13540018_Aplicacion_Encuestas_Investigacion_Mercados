@@ -9,7 +9,7 @@
     .row
       .col-lg-7
         p En sentido amplio, las buenas prácticas son aquellas acciones que se realizan en un determinado horizonte de tiempo con el fin de mejorar un producto, una situación o un entorno; en este sentido, son útiles porque siempre le apuntarán a la “mejora continua” y serán herramientas de apoyo para la sostenibilidad de la empresa, por tanto, no solo impactan los resultados a corto plazo, sino además al mediano y largo plazo. A su vez, influencian el comportamiento de los «grupos de interés» de una empresa, reflejándose en los colaboradores, los propietarios, la alta gerencia, los proveedores, los distribuidores y por supuesto, los clientes.
-        .row.p-2.colort1
+        .row.p-2.colort1.mt-3
           p Pese a lo anterior, una verdadera adopción de buenas prácticas empresariales implica mucho más que un documento, porque si bien estos formalizan la existencia de las mismas, es realmente el compromiso por parte de la alta dirección y el trabajo en equipo de los colaboradores¸ lo que jalona una implementación efectiva; en primer sentido porque se requiere de la asignación de personas para que lideren el tema y en lo asociado al trabajo en equipo, porque incluso en un mundo tan tecnológico como el actual son los seres humanos los responsables de “hacer que las cosas pasen”.
       .col-lg-5(data-aos="fade-up")
         img(src='@/assets/curso/tema1/1.png', alt='Texto que describa la imagen')
@@ -19,13 +19,13 @@
     .row.justify-content-center.mt-5
       .col-lg-10
         .row
-          .col-6(data-aos="fade-down")
+          .col-12.col-lg-6(data-aos="fade-down")
             img(src='@/assets/curso/tema1/2.svg', alt='Texto que describa la imagen')
             .row.p-4.colort12
               h5.mb-0 Estándares
               p.mb-4 A nivel de estándares los expertos sugieren que lo más adecuado es tomar de referencia las normas ISO, dado que estas han sido elaboradas como consecuencia de un consenso de expertos de cada tema.
 
-          .col-6(data-aos="fade-up")
+          .col-12.col-lg-6(data-aos="fade-up")
             img(src='@/assets/curso/tema1/3.svg', alt='Texto que describa la imagen')
             .row.p-4.colort13
               h5.mb-0 Códigos de ética
@@ -34,9 +34,9 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  ISO 20252
     .row.align-items-center
-      .col-lg-5(data-aos="fade-up")
+      .col-lg-5.mt-5(data-aos="fade-up")
         img.ind1(src='@/assets/curso/tema1/4.png', alt='Texto que describa la imagen')
-      .col-lg-7
+      .col-lg-7.mt-5
         .row.p-4.colort14
           .col-lg-12
             p.t1 Antes de entrar en detalle en qué es la ISO 20252 se requiere comprender qué representa la ISO a nivel mundial y sus normas. En este sentido, la ISO es la sigla para la Organización Internacional de Estandarización (International Organization for Standardization), entidad que tiene su secretaría central en Ginebra, Suiza y cuyo fin es la elaboración de una serie de estándares conocidos como normas técnicas internacionales, las cuales sirven a las empresas e instituciones como referentes de buenas prácticas en distintas temáticas.
@@ -52,33 +52,48 @@
             .col-7.martn
               img(src='@/assets/curso/tema1/i1.svg' alt='AvatarTop')
           h5.text-center Apertura de nuevos mercados
-          p.text-center Cuando una empresa planea expandirse, contar con una certificación en una norma le brindará mayor competitividad, porque refleja que es una empresa que trabaja con buenos estándares.
-
+          p.text-center.mb-5 Cuando una empresa planea expandirse, contar con una certificación en una norma le brindará mayor competitividad, porque refleja que es una empresa que trabaja con buenos estándares.
+          .row.mb-5
+          .row.mb-5
+          .row.mb-5
+          .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
           .row.justify-content-center.mb-3
             .col-7.martn
               img(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
           h5.text-center Mayor confianza
-          p.text-center Los consumidores siempre están buscando las mejores alternativas para satisfacer sus necesidades y al encontrarse con una empresa certificada contra otra que no lo está, claramente le generará mayor tranquilidad tener una relación comercial con la empresa certificada.
-
+          p.text-center.mb-5 Los consumidores siempre están buscando las mejores alternativas para satisfacer sus necesidades y al encontrarse con una empresa certificada contra otra que no lo está, claramente le generará mayor tranquilidad tener una relación comercial con la empresa certificada.
+          .row.mb-5
+          .row.mb-5
+          .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
           .row.justify-content-center.mb-3
             .col-7.martn
               img(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
           h5.text-center Posicionamiento de marca
-          p.text-center  Las empresas que se certifican pueden hacer uso del distintivo que las referencia como una empresa certificada, lo que posibilitará generar mayor posicionamiento de marca en el mercado.
+          p.text-center.mb-5 Las empresas que se certifican pueden hacer uso del distintivo que las referencia como una empresa certificada, lo que posibilitará generar mayor posicionamiento de marca en el mercado.
+          .row.mb-5
+          .row.mb-5
+          .row.mb-5
+          .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
           .row.justify-content-center.mb-3
             .col-7.martn
               img(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
           h5.text-center Mejora en la productividad
-          p.text-center  Una certificación lleva implícito una implementación, lo que trae consigo una adopción de mejores prácticas que deberán necesariamente reflejarse en una mayor productividad, es decir, en una mejor forma de hacer las cosas.
+          p.text-center.mb-5  Una certificación lleva implícito una implementación, lo que trae consigo una adopción de mejores prácticas que deberán necesariamente reflejarse en una mayor productividad, es decir, en una mejor forma de hacer las cosas.
+          .row.mb-5
+          .row.mb-5
+          .row.mb-5
         .tarjeta.color-acento-botones.p-4.mt-5
           .row.justify-content-center.mb-3
             .col-7.martn
               img(src='@/assets/curso/tema1/i5.svg' alt='AvatarTop')
           h5.text-center Satisfacción del cliente
-          p.text-center  Si bien una certificación no garantiza la satisfacción de los clientes, sí es una buena herramienta para que ellos sientan que son importantes para la empresa y que por ello que siempre buscan cómo realizar las cosas de la mejor manera posible.
+          p.text-center.mb-5 Si bien una certificación no garantiza la satisfacción de los clientes, sí es una buena herramienta para que ellos sientan que son importantes para la empresa y que por ello que siempre buscan cómo realizar las cosas de la mejor manera posible.
+          .row.mb-5
+          .row.mb-5
+          .row.mb-5
         .tarjeta.color-acento-botones.p-4.mt-5
           .row.justify-content-center.mb-3
             .col-7.martn
@@ -92,9 +107,9 @@
     p.mt-4 Como se evidencia en el esquema anterior, la ISO 20252 es la norma técnica asociada a la investigación de mercados, social y de opinión, allí se establecen principalmente dos grandes componentes: definiciones asociadas a los estudios y requisitos de servicio para organizaciones/profesionales que participen en investigaciones de mercado, tal y como se presenta en el interactivo.
     .col-lg-2
       .row.align-items-center
-        .col-8.ll.p-1
-          h4.text-white.text-center.mt-1 ISO 20252
-        .col-4
+        .col-5.ll.p-1.col-lg-8
+          h4.text-white.text-center.mb-0 ISO 20252
+        .col-2.col-lg-4
           img.mn(src='@/assets/curso/tema1/fan1.svg', alt='Texto que describa la imagen')
     LineaTiempoC.color-acento-contenido(text-small).mt-4.p-3
       .row.justify-content-center.align-items-center(titulo="A")
@@ -149,9 +164,9 @@
 
           p Es importante mencionar que acá se especifica cuál es la información que debe quedar explícita en estudios de naturaleza cuantitativa y en investigaciones cualitativas.
     .row.p-4.colori2.align-items-center.mt-4
-      .col-10
+      .col-8.col-lg-10
         p De acuerdo con lo visto previamente, se podría afirmar que las normas ISO son un muy buen referente de estandarización, específicamente para el campo de la investigación de mercados, la ISO 20252 suministra elementos metodológicos importantes para el desarrollo  de un estudio de mercados
-      .col-2
+      .col-4.col-lg-2
         img(src='@/assets/curso/tema1/13.svg', alt='Texto que describa la imagen')
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -178,9 +193,9 @@
       .col-lg-5
         img(src='@/assets/curso/tema1/15.png', alt='Texto que describa la imagen')
     .row.p-4.colori2.align-items-center.mt-4
-      .col-2
+      .col-4.col-lg-2
         img(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
-      .col-10
+      .col-8.col-lg-10
         p Si bien es cierto que los códigos de ética sirven de referente para un buen actuar y suelen incluir algún componente de confidencialidad, en su concepción misma son voluntarios más no obligatorios, por lo que en Colombia lo que se suele utilizar para convertir la confidencialidad en algo de ley es incluir una cláusula de este tipo en los contratos de trabajo. De esta manera, el colaborador se compromete a no difundir información relacionada con la compañía o con la labor que desempeña, lo anterior, respaldado por el hecho de que los encuestadores pueden tener acceso a bases de datos empresariales y a datos sensibles.
         
 </template>

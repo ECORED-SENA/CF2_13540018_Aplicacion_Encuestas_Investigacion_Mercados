@@ -10,7 +10,7 @@
       .col-lg-5.px-0(data-aos="zoom-in-left")
         img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')
 
-      .col-lg-7.px-0
+      .col-lg-7.px-0.asaasz
         .row.p-4.colort3
           p Toda investigación de mercados lleva asociado un cronograma, el cual representa una herramienta de planeación mediante la cual se deja por escrito cuáles son las actividades a realizar, los responsables y los tiempos asociados a cada tarea; visualmente en un cronograma las filas son las actividades a desarrollar, y las columnas reflejan el tiempo y los responsables. 
           p Este es un gran insumo para el estudio, ya que a través de este, se realiza el seguimiento sobre la gestión de cada uno de los participantes en la investigación y si es el caso, se tomarán las acciones correctivas a que haya lugar, incluso en muchos estudios que son contratados a través de agencias de investigación de mercados, el cronograma constituye un anexo al contrato.
@@ -113,13 +113,13 @@
                   span d
                 | En encuestas físicas, garantizar que en las preguntas en donde solo podía dar una opción de respuesta, no haya más de una.
     .row.mt-4.bg9.align-items-center
-      .col-lg-4(data-aos="zoom-in-left")
+      .col-lg-4.wimble(data-aos="zoom-in-left")
         img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
 
       .col-lg-8
         .row.p-2.colort3(data-aos="zoom-in-left")
           p Por temas de calidad, las encuestas que no cumplan con cada una de las condiciones mencionadas previamente deben completarse (si es que hay lugar para ello) o eliminarse de la base de datos, dado que no pueden ser consideradas como efectivas.
-        p La ISO 20252 en su numeral 5.6.5 hace mención a que el investigador (empresa que realiza el estudio) debe implementar procedimientos para identificar y eliminar entrevistados (encuestados) fraudulentos o distraídos, indicando que dichos procedimientos y las acciones tomadas deben ser documentadas. 
+        p.mt-3 La ISO 20252 en su numeral 5.6.5 hace mención a que el investigador (empresa que realiza el estudio) debe implementar procedimientos para identificar y eliminar entrevistados (encuestados) fraudulentos o distraídos, indicando que dichos procedimientos y las acciones tomadas deben ser documentadas. 
         p También se debe tener presente que cuando la investigación ha sido contratada por un cliente a una agencia de investigación de mercados que esté certificada en dicha norma, el cliente puede solicitarle a la firma que le suministre la descripción del proceso de depuración o limpieza de datos (de la muestra o de los resultados) realizado para eliminar entrevistados fraudulentos, distraídos o no deseables por otros motivos.    
     p.mt-4 Bajo un contexto práctico las encuestas no efectivas deben separarse de la base de datos, dado que requieren un tratamiento especial porque han sido datos suministrados por el encuestado con un fin específico, por tanto, según el medio a través del cual se realizaron se deben realizar alguna(s) de las siguientes acciones:
     .row.justify-content-center.mt-5
@@ -301,4 +301,10 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabs-a__tab
+  background-color: #E8E8E8
+.tarjeta.color-acento-botones--borde
+  background-color: #E1EEFE
+  border: solid 4px #E1EEFE
+</style>
