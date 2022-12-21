@@ -12,8 +12,8 @@
 
       .col-lg-7.px-0.asaasz
         .row.p-4.colort3
-          p Toda investigación de mercados lleva asociado un cronograma, el cual representa una herramienta de planeación mediante la cual se deja por escrito cuáles son las actividades a realizar, los responsables y los tiempos asociados a cada tarea; visualmente en un cronograma las filas son las actividades a desarrollar, y las columnas reflejan el tiempo y los responsables. 
-          p Este es un gran insumo para el estudio, ya que a través de este, se realiza el seguimiento sobre la gestión de cada uno de los participantes en la investigación y si es el caso, se tomarán las acciones correctivas a que haya lugar, incluso en muchos estudios que son contratados a través de agencias de investigación de mercados, el cronograma constituye un anexo al contrato.
+          p.mt-3 Toda investigación de mercados lleva asociado un cronograma, el cual representa una herramienta de planeación mediante la cual se deja por escrito cuáles son las actividades a realizar, los responsables y los tiempos asociados a cada tarea; visualmente en un cronograma las filas son las actividades a desarrollar, y las columnas reflejan el tiempo y los responsables. 
+          p.mb-4 Este es un gran insumo para el estudio, ya que a través de este, se realiza el seguimiento sobre la gestión de cada uno de los participantes en la investigación y si es el caso, se tomarán las acciones correctivas a que haya lugar, incluso en muchos estudios que son contratados a través de agencias de investigación de mercados, el cronograma constituye un anexo al contrato.
     p.mt-3 De acuerdo con lo anterior, la fecha en la que el trabajo de campo debe finalizar representa una actividad de alto impacto, ya que no solo da el cierre a una fase del proyecto, sino que además marca el inicio para el procesamiento de la información, por lo que una vez se evidencia en el cronograma que ya dicha actividad debe finalizarse, el supervisor del trabajo de campo debe:
     TabsA.color-acento-contenido.mb-5.mt-4(data-aos="zoom-in-left")
       .tarjeta.color-acento-botones--borde.p-4(titulo="1. Consolidación de encuestas")
@@ -125,14 +125,14 @@
     .row.justify-content-center.mt-5
       .col-lg-10
         .row
-          .col-6(data-aos="zoom-in-left")
+          .col-12.col-lg-6.mt-2(data-aos="zoom-in-left")
             img(src='@/assets/curso/tema4/7.svg', alt='Texto que describa la imagen')
             .row.p-4.colort12
               h5.mb-0 Encuestas disponibles solamente en forma digital:
 
               p.mb-5 En este tipo de encuestas el proceso de “destrucción” es más sencillo, ya que consiste en eliminarlas de forma permanente de la base de datos.
               .row.mb-5
-          .col-6(data-aos="zoom-in-left")
+          .col-12.col-lg-6.mt-2(data-aos="zoom-in-left")
             img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')
             .row.p-4.colort12
               h5.mb-0 Encuestas disponibles en medio impreso: 

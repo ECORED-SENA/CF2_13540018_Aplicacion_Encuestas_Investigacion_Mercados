@@ -15,7 +15,8 @@
 
     .row.mt-4.bg1.justify-content-center
       .col-lg-10(data-aos="fade-up")
-        img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')
+        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+
     .row.mt-4.align-items-center
       .col-lg-8.px-0
         .row.p-5.colort1
@@ -334,7 +335,37 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    datosLineaTiempoB: [
+      {
+        titulo: 'Población',
+        texto:
+          'Representa el conjunto de elementos que se quieren investigar y cumplen con las variables de interés del estudio. ',
+        icono: require('@/assets/curso/tema2/z1.svg'),
+      },
+      {
+        titulo: 'Tamaño de la muestra',
+        texto: 'Es el total de encuestas a realizar',
+        icono: require('@/assets/curso/tema2/z2.svg'),
+      },
+      {
+        titulo: 'Unidad muestral',
+        texto:
+          'Llamado también “elemento muestral”. Es cada uno de los elementos que conforman la muestra.',
+        icono: require('@/assets/curso/tema2/z3.svg'),
+      },
+      {
+        titulo: 'Nivel de confianza (NC)',
+        texto:
+          'Es un porcentaje que indica cuál es la probabilidad máxima con la que se podría asegurar que la variable a estimar se encuentra dentro del intervalo definido. Este valor lo define el cliente o usuario de la información, para lo cual se trabajan con valores por encima del 90 %. Tradicionalmente, los valores que más se trabajan en investigación de mercados son: 90 %, 95 %, 98 % y 99 %.',
+        icono: require('@/assets/curso/tema2/z4.svg'),
+      },
+      {
+        titulo: 'Margen de error (e)',
+        texto:
+          'Especifica a nivel porcentual cuál es el rango de valores por encima y por debajo de los resultados reales de una encuesta. Usualmente, se trabajan con valores entre el 1 % y el 9 % y los márgenes de error más usados en investigación son 5 %, 7 % y 9 %. ',
+        icono: require('@/assets/curso/tema2/z5.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -360,4 +391,8 @@ export default {
 .tarjeta--rojo
   border-top-right-radius: 0px
   border-bottom-right-radius: 0px
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon
+  background-color: #FFBBA6
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon:after
+  background-color: #FFBBA6
 </style>

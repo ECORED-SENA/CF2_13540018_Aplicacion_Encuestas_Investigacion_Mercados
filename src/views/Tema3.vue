@@ -79,7 +79,7 @@
                 p Dichas bases de datos son de alta relevancia, ya que permiten organizar la información según los requerimientos puntuales que se tengan. 
                 p Por ejemplo, una base de datos que aloje la información de los colaboradores de la compañía relacionando sus datos de nombres, fecha de nacimiento, estado civil, estudios y datos de contacto.
       .col-lg-4(data-aos="zoom-out")
-        img(src='@/assets/curso/tema3/5.svg', alt='Texto que describa la imagen')  
+        img.wimble(src='@/assets/curso/tema3/5.svg', alt='Texto que describa la imagen')  
     .row.mt-5
       .col-lg-4
         img(src='@/assets/curso/tema3/6.png', alt='Texto que describa la imagen')  
@@ -133,7 +133,7 @@
       .col-4.col-lg-2
         img(src='@/assets/curso/tema3/11.svg', alt='Texto que describa la imagen')
       .col-8.col-lg-10
-        p Una vez todas las encuestas están disponibles como mínimo en una base de datos se continúa con el procesamiento, que representa un conjunto de operaciones informáticas a través de las cuales los datos se convertirán en información de valor, lo cual representa en últimas el fin de la investigación de mercados. Las etapas que contiene el procesamiento de la información son:
+        p.mb-md-0 Una vez todas las encuestas están disponibles como mínimo en una base de datos se continúa con el procesamiento, que representa un conjunto de operaciones informáticas a través de las cuales los datos se convertirán en información de valor, lo cual representa en últimas el fin de la investigación de mercados. Las etapas que contiene el procesamiento de la información son:
     .row.justify-content-center.mt-5
       .col-lg-10(data-aos="zoom-out")
         img(src='@/assets/curso/tema3/12.svg', alt='Texto que describa la imagen')

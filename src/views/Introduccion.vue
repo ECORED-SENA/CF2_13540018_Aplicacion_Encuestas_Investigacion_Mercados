@@ -21,7 +21,7 @@
       .col-4.col-lg-2
         img(src='@/assets/curso/intro/2.svg', alt='Texto que describa la imagen')
       .col-8.col-lg-10
-        p No obstante, en un país como Colombia donde no hay tanta cultura de la investigación, la labor del encuestador es un poco más compleja frente a otras latitudes, dado que las encuestas suelen estar asociadas con la pérdida de tiempo y la desconfianza, es por ello, que en ocasiones completar la cuota de ventas, entendida como la cantidad de encuestas a realizar puede llegar a ser una actividad demandante de tiempo y recursos.
+        p.mb-md-0 No obstante, en un país como Colombia donde no hay tanta cultura de la investigación, la labor del encuestador es un poco más compleja frente a otras latitudes, dado que las encuestas suelen estar asociadas con la pérdida de tiempo y la desconfianza, es por ello, que en ocasiones completar la cuota de ventas, entendida como la cantidad de encuestas a realizar puede llegar a ser una actividad demandante de tiempo y recursos.
 
 </template>
 

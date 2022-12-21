@@ -12,7 +12,7 @@
         .row.p-2.colort1.mt-3
           p Pese a lo anterior, una verdadera adopción de buenas prácticas empresariales implica mucho más que un documento, porque si bien estos formalizan la existencia de las mismas, es realmente el compromiso por parte de la alta dirección y el trabajo en equipo de los colaboradores¸ lo que jalona una implementación efectiva; en primer sentido porque se requiere de la asignación de personas para que lideren el tema y en lo asociado al trabajo en equipo, porque incluso en un mundo tan tecnológico como el actual son los seres humanos los responsables de “hacer que las cosas pasen”.
       .col-lg-5(data-aos="fade-up")
-        img(src='@/assets/curso/tema1/1.png', alt='Texto que describa la imagen')
+        img.mt-2(src='@/assets/curso/tema1/1.png', alt='Texto que describa la imagen')
     p.mt-4 Específicamente, en el tema objeto de este curso, 
       span.textc1 <strong>las buenas prácticas en la investigación de mercados se refieren a la adopción de estándares y códigos de ética</strong>
       |  que permitan a las empresas desarrollar sus estudios de mercado de la forma más eficiente y responsable posible; de ahí, la necesidad de comprender su diferencia.
@@ -48,7 +48,7 @@
     .row.bg2.mt-4
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-up")
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i1.svg' alt='AvatarTop')
           h5.text-center Apertura de nuevos mercados
@@ -58,7 +58,7 @@
           .row.mb-5
           .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
           h5.text-center Mayor confianza
@@ -67,7 +67,7 @@
           .row.mb-5
           .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
           h5.text-center Posicionamiento de marca
@@ -77,7 +77,7 @@
           .row.mb-5
           .row.mb-4
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
           h5.text-center Mejora en la productividad
@@ -86,7 +86,7 @@
           .row.mb-5
           .row.mb-5
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i5.svg' alt='AvatarTop')
           h5.text-center Satisfacción del cliente
@@ -95,7 +95,7 @@
           .row.mb-5
           .row.mb-5
         .tarjeta.color-acento-botones.p-4.mt-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.mt-5
             .col-7.martn
               img(src='@/assets/curso/tema1/i6.svg' alt='AvatarTop')
           h5.text-center Habilita la contratación bajo licitación
@@ -165,7 +165,7 @@
           p Es importante mencionar que acá se especifica cuál es la información que debe quedar explícita en estudios de naturaleza cuantitativa y en investigaciones cualitativas.
     .row.p-4.colori2.align-items-center.mt-4
       .col-8.col-lg-10
-        p De acuerdo con lo visto previamente, se podría afirmar que las normas ISO son un muy buen referente de estandarización, específicamente para el campo de la investigación de mercados, la ISO 20252 suministra elementos metodológicos importantes para el desarrollo  de un estudio de mercados
+        p.mb-md-0 De acuerdo con lo visto previamente, se podría afirmar que las normas ISO son un muy buen referente de estandarización, específicamente para el campo de la investigación de mercados, la ISO 20252 suministra elementos metodológicos importantes para el desarrollo  de un estudio de mercados
       .col-4.col-lg-2
         img(src='@/assets/curso/tema1/13.svg', alt='Texto que describa la imagen')
     separador
