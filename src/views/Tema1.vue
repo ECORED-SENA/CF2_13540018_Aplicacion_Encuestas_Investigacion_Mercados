@@ -184,6 +184,15 @@
     .row.mt-4.bg1(data-aos="flip-up")
       img.cambio1(src='@/assets/curso/tema1/c1.svg', alt='Texto que describa la imagen')
       img.cambio2(src='@/assets/curso/tema1/c2.svg', alt='Texto que describa la imagen')
+      .row.mb-5.mt-4.pc
+        .col-sm-12.col-lg-12.mb-4.mb-lg-0.pc
+          .tarjeta--boton.color-primario.p-4.pc
+            .row.justify-content-center.mb-3.pc
+              .col-6
+                figure.pc
+                  img.pc(src='@/assets/curso/tema1/fr.svg', alt='Texto que describa la imagen')
+            p.pc Asociado a la investigación de mercados, en dicho código de ética, en el capítulo asociado a los derechos y obligaciones de las partes se define que se prohíben las ventas o la recaudación de fondos con el argumento que son trabajos de investigación; se debe mantener la integridad en la investigación evitando la representación indebida y la omisión de datos de investigación pertinentes y, se debe tratar a los clientes y proveedores externos con equidad.
+
     .row.mt-4
       .col-lg-7
         p La confidencialidad, por su parte, es una variable clave dentro de los códigos de ética en investigación de mercados, por ello se plantea que toda la información de carácter técnico, legal, personal o comercial que sea revelada o desarrollada por los encuestados deberá tener un carácter reservado y será para uso exclusivo del estudio de mercados, razón por la cual no podrá ser utilizada con una finalidad diferente, ni divulgada a terceros sin consentimiento previo y expreso con base en la Ley de protección de datos,  por tanto, la empresa que realiza la investigación se compromete a mantener en reserva la información, por lo que deberán utilizar todos los medios a su alcance para garantizar que los empleados a su servicio y demás personas autorizadas respeten la obligación de confidencialidad. 
@@ -223,4 +232,6 @@ export default {
   background-color: #E1EEFE
 .tarjeta.color-acento-botones *
   color: #12263F!important
+.tarjeta--boton
+  background-color: #B9D6FC
 </style>
