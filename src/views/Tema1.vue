@@ -90,7 +90,7 @@
             .col-7.martn
               img(src='@/assets/curso/tema1/i5.svg' alt='AvatarTop')
           h5.text-center Satisfacción del cliente
-          p.text-center.mb-5 Si bien una certificación no garantiza la satisfacción de los clientes, sí es una buena herramienta para que ellos sientan que son importantes para la empresa y que por ello que siempre buscan cómo realizar las cosas de la mejor manera posible.
+          p.text-center.mb-5 Si bien una certificación no garantiza la satisfacción de los clientes, sí es una buena herramienta para que ellos sientan que son importantes para la empresa y que por ello siempre buscan cómo realizar las cosas de la mejor manera posible.
           .row.mb-5
           .row.mb-5
           .row.mb-5
@@ -129,7 +129,7 @@
           h5.mb-0 El sistema de gestión del proceso de  investigación de mercados
           p Se indica que el proveedor de estudios de mercados debe implementar y documentar un sistema de gestión del proceso de investigación que abarque los requisitos de la norma, dando origen a procedimientos, instrucciones y métodos que permitan completar todas las actividades que deben gestionarse. 
           p Allí mismo referencia las responsabilidades de la alta dirección y la necesidad de realizar la designación de un responsable de calidad quien debe administrar todo el sistema. 
-          p También en este capítulo se hace especial mención a la confidencialidad de la información y en caso de que aplique tener mapeado que el proveedor del a  investigación debe realizar acciones correctas frente a la subcontratación o externalización.
+          p También en este capítulo se hace especial mención a la confidencialidad de la información y en caso de que aplique tener mapeado que el proveedor de la investigación debe realizar acciones correctas frente a la subcontratación o externalización.
       .row.justify-content-center.align-items-center(titulo="C")
         .col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
@@ -184,7 +184,7 @@
     .row.mt-4.bg1(data-aos="flip-up")
       img.cambio1(src='@/assets/curso/tema1/c1.svg', alt='Texto que describa la imagen')
       img.cambio2(src='@/assets/curso/tema1/c2.svg', alt='Texto que describa la imagen')
-      .row.mb-5.mt-4.pc
+      //.row.mb-5.mt-4.pc
         .col-sm-12.col-lg-12.mb-4.mb-lg-0.pc
           .tarjeta--boton.color-primario.p-4.pc
             .row.justify-content-center.mb-3.pc

@@ -181,9 +181,8 @@
                     p.text-center  Infinita  
 
                     p.text-center 1,96
-                    p.text-center.mb-1 (Supera los 100.000 elementos)
+                    p.text-center.mb-2 (Supera los 100.000 elementos)
 
-                    p.text-center.mb-1 1,96
 
                     p.text-center.mb-1 (Valor extraído de la tabla Z)
 
@@ -241,7 +240,7 @@
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo aleatorio simple (MAS)
+        h5.text-center Muestreo Aleatorio Simple (MAS)
         p.text-center.mb-5  También conocido por sus siglas como MAS, en este tipo de muestreo todos y cada uno de los elementos de la población se elige de tal forma que tengan la misma probabilidad de ser seleccionados y pertenecer a la muestra.
         .row.mb-5
         .row.mb-5
@@ -251,7 +250,7 @@
         .row.justify-content-center.mb-3
           .col-7.martn
             img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-        h5.text-center Muestreo aleatorio estratificado (MAE)
+        h5.text-center Muestreo Aleatorio Estratificado (MAE)
         p.text-center.mb-5  Se involucra la división previa de la población en subgrupos, clases o estratos, a los cuales se les asigna una cuota que determina el número de miembros del estrato que comprende la muestra. Acá es importante clarificar qué estratos no hacen alusión a un estrato socioeconómico, sino a cualquier variable de segmentación.
         .row.mb-5
       .tarjeta.color-acento-botones.p-4.mt-5.azx
@@ -293,7 +292,7 @@
 
           .tarjeta.color-acento-botones
             .p-4
-              h4.text-center Muestreo por Ccnveniencia
+              h4.text-center Muestreo por Conveniencia
               p Es un tipo de muestreo usado para tomar muestras estadísticas de forma no aleatoria, por lo que el criterio de selección es la facilidad de acceso, es decir, la disponibilidad de las personas para formar parte de la muestra.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -316,7 +315,6 @@
       .col-lg-8
         h4 Ejemplo
         h4 Situación y aplicación de técnicas
-        h5 Situación y aplicación de técnicas
         p En este caso el investigador elige una familiar que cumple con el criterio, en este sentido él está aplicando muestreo por conveniencia. 
         p En otro caso, un encuestador requiere encuestar personas de cierto movimiento social, por lo que acude a visitar un sitio característico de este tipo de población y procede a realizar las encuestas basándose en su juicio. 
         p Ahora bien, esta misma persona le podría preguntar a su encuestado si le puede referir otras personas que pertenezcan a ese mismo movimiento. En este sentido, el encuestador está aplicando un muestreo bola de nieve porque a partir de un encuestado efectivo está tratando de llegar a otros con el mismo perfil.
