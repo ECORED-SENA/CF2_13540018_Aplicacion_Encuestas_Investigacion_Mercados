@@ -204,7 +204,7 @@
         img(src="@/assets/curso/tema2/8.svg")
     figure.mb-5.mt-4(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Muv1AgJYZDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QoWqBjK376k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-4.align-items-center.bg4
       .col-lg-8
         p Existen algunas <strong>consideraciones a tener en cuenta respecto a las fórmulas</strong>
