@@ -166,11 +166,11 @@
                 .row
                   .col-lg-6
                     h5.text-center Variable
-                    p.text-center  Tipo de población
+                    p.text-center.mb-4  Tipo de población
 
-                    p.text-center Nivel de confianza para un 95 %
+                    p.text-center.mt-4.mb-3 Nivel de confianza para un 95 %
 
-                    p.text-center Margen de error
+                    p.text-center.mt-4 Margen de error
 
                     p.text-center Probabilidad de que el fenómeno ocurra (p)
 
@@ -178,17 +178,14 @@
                   .col-lg-6
                     h5.text-center   Valor en la fórmula
 
-                    p.text-center  Infinita  
+                    p.text-center  Infinita  (Supera los 100.000 elementos)
 
-                    p.text-center 1,96
-                    p.text-center.mb-2 (Supera los 100.000 elementos)
+                    p.text-center.mb-0 1,96 (Valor extraído de la tabla Z)
+                    p.text-center.mb-2.mt-2 0.03 (3 %)
 
 
-                    p.text-center.mb-1 (Valor extraído de la tabla Z)
-
-                    p.text-center.mb-1 0.03 (3 %)
-                    p.text-center.mb-1 0.5
-                    p.text-center.mb-1 q = 1- 0.5= 0.5
+                    p.text-center.mb-1.mt-4 0.5
+                    p.text-center.mb-1.mt-4 q = 1- 0.5= 0.5
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
                 p Ahora que se tiene claridad de las variables y de que se debe utilizar la fórmula para poblaciones infinitas, procede a aplicarse:
